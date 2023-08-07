@@ -48,6 +48,12 @@ a {
   
 }
 
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
 #description {
   text-align: center;
   margin-left: 300px;
@@ -111,7 +117,7 @@ background-color: #FFCC00;
 }
 
 #Pricing {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 150px;
   display: flex;
   gap: 20px;
@@ -138,7 +144,7 @@ h4 {
 .prh, .prp {
   text-align: center;
   padding: 0 25px;
-  margin: 20px auto;
+  margin: 25px auto;
   line-height: 2;
   
 }
@@ -173,4 +179,107 @@ h4 {
 
 .copyright {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  .headwrapper {
+    left: 0;
+  }
+  
+  #header {
+   display: flex;
+   flex-direction: column;
+    margin-left: 120px;
+    margin-right: auto;
+    
+
+  }
+  
+  #description {
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  
+  #submit {
+    font-size: 10px;
+  }
+  
+  #Features {
+    margin-top: 80px;
+    margin-left: 200px;
+  }
+  
+  #fire-icon, #truck-icon, #qa {
+    font-size: 25px;
+  }
+  
+  #fire-icon {
+    margin-right: 10px;
+  }
+  
+  
+  #How_It_Works {
+    margin-left: 80px;
+    padding: 10px;
+  }
+  
+  #Pricing {
+    margin-left: 80px;
+  }
+  
+  .priceone, .pricetwo, .pricethree {
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    border: 1px solid white;
+    text-align: center;
+  }
+  
+  h4 {
+    text-align: center;
+    padding: 12px;
+    margin-top: 0;
+    color: black;
+  }
+  
+  .prh, .prp {
+    text-align: center;
+    padding: 0 15px;
+    margin: 15px auto;
+    line-height: 1;
+    
+  }
+  
+  .prsubmit {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px 15px;
+    cursor: pointer;
+    margin: 30px auto;
+  }
+  
+  .footer {
+    width: 400px;
+    margin-top: 25px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 0;
+    padding: 5px 30px;
+  }
+  
+  .foot-link {
+    justify-content: center;
+  }
+  
+  .copyright {
+    color: black;
+  }
 }
