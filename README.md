@@ -1,2 +1,2 @@
 # Freecodecamp
-This is where all the exercises I will be doing and have done in Freecodecamp.org
+This is a certification project of Freecodecamp.org for Responsive Web Design Certification// 
